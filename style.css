@@ -14,7 +14,25 @@ html {
 
 a {
   color: black;
+  font-size: 1.8rem;
   text-decoration: none;
+}
+
+nav h1 {
+  font-size: 5rem;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 10vh;
+  padding: 2rem;
+}
+
+nav li {
+  list-style: none;
+
 }
 
 img {
