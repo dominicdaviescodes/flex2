@@ -19,6 +19,7 @@ a {
 }
 
 nav h1 {
+  color: #a84d38;
   font-size: 5rem;
 }
 
@@ -37,4 +38,32 @@ nav li {
 
 img {
   width: 15rem;
+}
+
+.hero {
+  background: url('./img/welcome.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+  /* flex */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero h2 {
+  color: white;
+  font-size: 3.3rem;
+  margin: 2rem;
+  text-align: center;
+  width: 55%;
+}
+
+.hero button {
+  background: #ad8c68;
+  color: white;
+  padding: 1rem 2rem;
+
 }
