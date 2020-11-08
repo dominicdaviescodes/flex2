@@ -1,3 +1,10 @@
+/* font-family: 'Josefin Sans',
+sans-serif;
+font-family: 'Marck Script',
+cursive;
+font-family: 'Open Sans',
+sans-serif; */
+
 /* global styles */
 
 * {
@@ -12,6 +19,11 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  font-family: 'Open Sans',
+    sans-serif;
+}
+
 a {
   color: black;
   font-size: 1.8rem;
@@ -20,7 +32,10 @@ a {
 
 nav h1 {
   color: #a84d38;
+  font-family: 'Sacramento', cursive;
   font-size: 5rem;
+  font-style: italic;
+  font-weight: 100;
 }
 
 nav ul {
@@ -33,7 +48,11 @@ nav ul {
 
 nav li {
   list-style: none;
+}
 
+nav a {
+  font-size: 1.1rem;
+  text-transform: uppercase;
 }
 
 img {
@@ -45,6 +64,8 @@ img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: 'Josefin Sans',
+    sans-serif;
   min-height: 90vh;
   /* flex */
   display: flex;
@@ -56,6 +77,8 @@ img {
 .hero h2 {
   color: white;
   font-size: 3.3rem;
+  font-weight: 100;
+  line-height: 1.5;
   margin: 2rem;
   text-align: center;
   width: 55%;
@@ -64,6 +87,11 @@ img {
 .hero button {
   background: #ad8c68;
   color: white;
-  padding: 1rem 2rem;
+  letter-spacing: .03em;
+  line-height: 1.4em;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  padding: 1.5rem 2.6rem 1.3rem;
 
 }
